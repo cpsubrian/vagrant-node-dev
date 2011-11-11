@@ -38,7 +38,7 @@ It includes:
 # Shared folder
 
 By default Vagrant sets up a 'root' shared folder for you.  On the host
-machine it will be wherever you ran `vagrant init` in step 4 above.
+machine it will be wherever you ran `vagrant up` in step 4 above.
 
 I have set up an symlink (for convenience) at `~/shared` that points 
 to the location of the shared folder on the guest VM.
