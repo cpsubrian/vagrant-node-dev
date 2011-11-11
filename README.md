@@ -16,7 +16,7 @@ It includes:
 1. Install Vagrant 
   - http://vagrantup.com/docs/getting-started/index.html
 2. Create the directory where you want the vm to live and `cd` to it.
-3. `$ vagrant box add node-dev https://github.com/cpsubrian/vagrant-node-dev/blob/master/node-dev.box?raw=true
+3. `$ vagrant box add node-dev https://github.com/cpsubrian/vagrant-node-dev/blob/master/node-dev.box?raw=true`
 4. `$ vagrant init node-dev`
 5. `$ vagrant up`
   - This may take a little while.  When its done the machine is ready 
