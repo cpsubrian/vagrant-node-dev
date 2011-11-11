@@ -16,7 +16,7 @@ It includes:
 1. Install Vagrant 
   - http://vagrantup.com/docs/getting-started/index.html
 2. Create the directory where you want the vm to live and `cd` to it.
-3. `$ vagrant box add node-dev http://github.com....`
+3. `$ vagrant box add node-dev https://github.com/cpsubrian/vagrant-node-dev/blob/master/node-dev.box?raw=true
 4. `$ vagrant init node-dev`
 5. `$ vagrant up`
   - This may take a little while.  When its done the machine is ready 
@@ -39,7 +39,7 @@ By default Vagrant sets up a 'root' shared folder for you.  On the host
 machine it will be wherever you ran `vagrant init` in step 4 above.
 
 I have set up an symlink (for convenience) at `~/shared` that points 
-to the location of the shared folder on the guesst VM.
+to the location of the shared folder on the guest VM.
 
 # Forwarded ports
 
